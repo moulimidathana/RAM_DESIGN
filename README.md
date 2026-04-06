@@ -1,17 +1,6 @@
 # RAM_DESIGN
-*COMPANY* : CODTECH IT SOLUTIONS
 
-*NAME* : MIDATHANA MOULI
-
-*INTERN ID* : CT06DN38
-
-*DOMAIN* :  VLSI
-
-*DURATION* : 6 WEEKS
-
-*MENTOR* : NEELA SANTOSH
-
- I have successfully completed the design and implementation of a 16 x 8-bit synchronous RAM module using Verilog HDL. The RAM is designed to perform both read and write operations based on control signals, and its behavior is governed by the rising edge of a clock signal (clk). The memory module contains 16 locations, each capable of storing 8-bit data. This means the module can store up to 128 bits (16 × 8) of information in total. The address lines used are 4 bits wide ([3:0] addr), which provides access to 16 distinct memory locations (from address 0 to 15), while the data lines (din and dout) are 8 bits wide, supporting byte-level operations.
+I have successfully completed the design and implementation of a 16 x 8-bit synchronous RAM module using Verilog HDL. The RAM is designed to perform both read and write operations based on control signals, and its behavior is governed by the rising edge of a clock signal (clk). The memory module contains 16 locations, each capable of storing 8-bit data. This means the module can store up to 128 bits (16 × 8) of information in total. The address lines used are 4 bits wide ([3:0] addr), which provides access to 16 distinct memory locations (from address 0 to 15), while the data lines (din and dout) are 8 bits wide, supporting byte-level operations.
 
 To gain conceptual clarity before writing the code, I referred to the NPTEL video lectures by Prof. Indranil Sengupta, which provided an excellent theoretical background on synchronous memory operations and digital design. After grasping the core principles, I proceeded to write the Verilog code independently. During the development and testing phases, I utilized ChatGPT to rectify syntax and logical errors in the testbench and to ensure correct alignment of read and write operations with the clock signal.
 
